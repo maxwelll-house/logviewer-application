@@ -6,7 +6,7 @@ Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("LogViewer")
+    title: qsTr("Viewer")
     
     FileDropArea {
         anchors.fill: parent
@@ -52,7 +52,7 @@ Window {
         }
     }
 
-    LogView {
+    View {
         id : logView
 
         anchors.top: topPanel.bottom

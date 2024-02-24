@@ -2,6 +2,6 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>FileDropArea.qml</file>
-        <file>LogView.qml</file>
+        <file>View.qml</file>
     </qresource>
 </RCC>
